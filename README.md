@@ -61,11 +61,11 @@ set(gca,'TickLabelInterpreter','latex');
 There are 2 types of wrappers, for 1D analysis & for 2D analysis
 ```matlab
 [xData, yData] = fcn1d(); % 1d usage
-[xData, yData, cData] = fcn2d(); % 2 d usage
+[xData, yData, cData] = fcn2d(); % 2d usage
 ```
 All outputs are ready to plot, for 1D ``xData`` and ``yData`` are ``1 x N `` arrays and can be passed directly to ``plot``
 ```matlab
-plot(xData, y Data)
+plot(xData, yData)
 ```
 For 2D ``xData`` and ``yData`` are ``1 x N `` arrays and ``cData`` is ``N x N`` matrix they can be passed directly to ``imagesc``
 ```matlab
