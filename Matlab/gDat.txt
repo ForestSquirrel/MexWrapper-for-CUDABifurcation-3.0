@@ -1,0 +1,15 @@
+<class obj name>.tMax =                 % Double scalar > 0                         % Simultaion time
+<class obj name>.NT =                   % Double scalar > 0                         % Normaliztion time for LLE
+<class obj name>.nPts =                 % Double scalar > 0                         % Number of point to analyze system in
+<class obj name>.h =                    % Double scalar > 0                         % Integration step
+<class obj name>.LLE_eps =              % Double scalar > 0                         % Epsilon value for LLE
+<class obj name>.intCon =               % Double vector 1 x N                       % Initial conditions
+<class obj name>.ranges =               % Double vector 1 x 2 for 1D & 2 x 2 for 2D % Ranges to vary mutVariables
+<class obj name>.indicesOfMutVars =     % Double vector 1 x N >=0                   % Indices of mutVariabes
+<class obj name>.writableVar            % Double scalar >= 0                        % Indice of state variable to conduct analysys on
+<class obj name>.maxValue =             % Double scalar >= 0                        % Value to determine if system has diverged
+<class obj name>.transient =            % Double scalar >= 0                        % Time to simulate transient
+<class obj name>.values =               % Double vector 1 x N                       % System parameters
+<class obj name>.preScaller =           % Double scalar >= 0                        % Modifier to reduce computations (every <preScaller> point is computed)
+<class obj name>.DBSCAN_eps =           % Double scalar >= 0                        % Epsilon value for DBSCAN
+<class obj name>.LS_eps  =              % Double scalar >= 0                        % Epsilon value for LS
